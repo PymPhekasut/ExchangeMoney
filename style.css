@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    ;
+}
+
+.box {
+    display: block;
+    line-height: 40px;
+    padding: 4px 50px;
+    margin: 0px;
+    border-radius: 10px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(to top right, #f15c06 0%, #f10606 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.btn {
+    color: white;
+    background-color: orange;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 12px 14px;
+}
+
+.currency {
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.currency select {
+    padding: 10px 20px 10px 20px;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    background: transparent;
+    appearance: none;
+}
+
+.currency input {
+    padding: 10px 20px 10px 20px;
+    border: 1px solid lightgray;
+    background: transparent;
+    font-size: 16px;
+    text-align: right;
+}
+
+.swap-container {
+    display: flex;
+    /* put element inside to horizin*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rate {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+select:focus,
+input:focus,
+button:focus {
+    outline: 0;
+    /*no border when put cursor*/
+}
